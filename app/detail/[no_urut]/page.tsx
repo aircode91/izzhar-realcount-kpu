@@ -1,8 +1,8 @@
-"use client"
 import Detail  from '../../components/Detail'
-import { useEffect, useState } from "react";
+import React, {useEffect, useState} from 'react';
 
-export default function detailPaslon({
+
+export default function DetailPaslon({
   params,
 }: {
   params: { no_urut: number };
